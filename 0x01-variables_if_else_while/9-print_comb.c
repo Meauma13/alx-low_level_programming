@@ -10,11 +10,11 @@
 /*main function prints the alphabet in lowercase*/
 int main(void)
 {
-	char ch;
+	int ch;
 
 	for (ch = '0' ; ch <= '9' ; ch++)
 	{
-		putchar(ch);
+		putchar(ch + '0');
 
 		if (ch == '9')
 			break;
