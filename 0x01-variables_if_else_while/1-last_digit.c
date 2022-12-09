@@ -2,6 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 
+/**
+* main - Entry point
+*
+* Return: 0,for successful execution
+*
+*/
+
 /*main prints the last digit of a random number*/
 int main(void)
 {
