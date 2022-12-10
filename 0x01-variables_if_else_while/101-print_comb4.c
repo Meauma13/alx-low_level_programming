@@ -7,7 +7,7 @@
 *
 */
 
-/*main function prints all possible combinations of two digits*/
+/*main function prints all possible combinations of three digits*/
 int main(void)
 {
 	int n1, n2, n3;
