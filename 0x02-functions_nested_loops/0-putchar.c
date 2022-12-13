@@ -7,7 +7,7 @@
 *
 */
 
-/* main implements a user-defined function to print to standard output */
+/*main implements a user-defined print function*/
 int main(void)
 {
 	_putchar('_');
