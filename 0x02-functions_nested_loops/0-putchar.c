@@ -1,11 +1,13 @@
 #include "main.h"
 
 /*
-* main - Entry point for a user defined function
+* main - Entry point
 *
 * Return 0 - successful execution
 *
 */
+
+/* main function a user function */
 int main(void)
 {
 	_putchar('_');
