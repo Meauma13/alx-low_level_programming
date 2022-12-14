@@ -7,7 +7,7 @@
 */
 
 /*_islower tests for lowercase character*/
-int _islower(int c)
+int _islower(int c) /*parameter int c expects integer*/
 {
 	if ((c > 96) && (c < 123))
 	{
