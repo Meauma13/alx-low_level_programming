@@ -1,17 +1,10 @@
 #include "main.h"
 
 /**
-* main - check the code
+* print_alphabet - print alphabet lowercase
 *
 * Return: Always 0.
 */
-
-/*main function calls print_alphabet function*/
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 
 /*print_alphabet displays lowercase alphabet*/
 void print_alphabet(void)
