@@ -21,11 +21,13 @@ int main(void)
 	for (m = 3; m <= 50; m++)
 	{
 		sum = a + b;
-		printf("%lu, ", sum);
+		printf("%lu", sum);
+
+		if (m != 50)
+			printf(", ");
 		a = b;
 		b = sum;
 	}
-	if (m != 50)
-		printf("\n");
+	printf("\n");
 	return (0);
 }
