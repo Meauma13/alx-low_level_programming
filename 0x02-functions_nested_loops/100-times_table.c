@@ -12,10 +12,10 @@
 
 void print_times_table(int n)
 {
+	int r, c, prod;
+
 	if ((n > 15) || (n < 0))
 		exit(0);
-
-	int r, c, prod;
 
 	r = 0;
 	while (r <= n)
