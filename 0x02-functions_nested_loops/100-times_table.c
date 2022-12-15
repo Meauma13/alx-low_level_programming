@@ -13,10 +13,8 @@
 void print_times_table(int n)
 {
 	int r, c, prod;
-
 	if ((n > 15) || (n < 0))
 		exit(0);
-
 	for (r = 0; r <= n; r++)
 	{
 		for (c = 0; c <= n; c++)
