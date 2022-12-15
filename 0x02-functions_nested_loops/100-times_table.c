@@ -3,16 +3,14 @@
 
 /**
 * print_times_table - prints the n times table starting from n
-*
 * @n: expected parameter to start from
-*
 * Return: void, if successful
-*
 */
 
 void print_times_table(int n)
 {
 	int r, c, prod;
+
 	if ((n > 15) || (n < 0))
 		exit(0);
 	for (r = 0; r <= n; r++)
