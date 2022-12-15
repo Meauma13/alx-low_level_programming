@@ -19,7 +19,7 @@ void print_times_table(int n)
 
 	for (r = 0; r <= n; r++)
 	{
-		for (forc = 0; c <= n; c++)
+		for (c = 0; c <= n; c++)
 		{
 			prod = r * c;
 			if (prod > 99)
