@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include "main.h"
+
 /**
 * print_times_table - prints the n times table starting from n
 * @n: expected parameter to start from
@@ -37,9 +38,7 @@ void print_times_table(int n)
 					_putchar(prod + '0');
 				if (c != 0)
 				{
-					_putchar(' ');
-					_putchar(' ');
-					_putchar(' ');
+					_putchar(_putchar(_putchar(' ')));
 					_putchar(prod + '0');
 				}
 			}
