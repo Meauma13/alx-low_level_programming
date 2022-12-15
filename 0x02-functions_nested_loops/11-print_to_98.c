@@ -3,6 +3,8 @@
 
 /**
 * print_to_98 - prints all natural numbers from n to 98
+*
+* @n: expected parameter to start from
 * Return: void, if successful
 *
 */
@@ -15,18 +17,24 @@ void print_to_98(int n)
 	{
 		for (c = n; c >= 98; c--)
 		{
-			printf("%d, ", c);
+			printf("%d", c);
+			if (c != 98)
+				printf(", ");
+			printf("\n");
 		}
 	}
 	else if (n == 98)
 	{
-		printf("%d, ", n);
+		printf("%d, \n", n);
 	}
 	else
 	{
 		for (c = n; c <= 98; c++)
 		{
-			printf("%d, ", c);
+			printf("%d", c);
+			if (c != 98)
+				printf(", ");
+			printf("\n");
 		}
 	}
 }
