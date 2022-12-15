@@ -24,19 +24,20 @@ void times_table(void)
 				_putchar((prod % 10) + '0');
 				_putchar(',');
 			}
+			else if ((prod == 0) && (c
+ != 0))
+			{
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(prod + '0
+');
+			}
+			else if (prod == 0)
+			{
+				_putchar(prod + '0');
+				_putchar(',');
+			}
 			else if ((prod < 10) && ((c != 0) && (r != 0)))
-			{
-				_putchar(' ');
-				_putchar(' ');
-				_putchar(prod + '0');
-				_putchar(',');
-			}
-			else if ((prod == 0) && (r == 0))
-			{
-				_putchar(prod + '0');
-				_putchar(',');
-			}
-			else if ((prod == 0) && (c != 0))
 			{
 				_putchar(' ');
 				_putchar(' ');
