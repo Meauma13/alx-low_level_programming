@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int n, m; dg 
+	int n, m;
 	long a = 1;
 	long  b = 2;
 	long sum = 0;
