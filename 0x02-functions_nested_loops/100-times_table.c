@@ -34,13 +34,13 @@ void print_times_table(int n)
 			}
 			else if (prod < 10)
 			{
-				if (c == 0)
-					_putchar(prod + '0');
 				if (c != 0)
 				{
-					_putchar(_putchar(_putchar(_putchar(' '))));
-					_putchar(prod + '0');
+					_putchar(' ');
+					_putchar(' ');
+					_putchar(' ');
 				}
+				_putchar(prod + '0');
 			}
 			if (c != n)
 				_putchar(',');
