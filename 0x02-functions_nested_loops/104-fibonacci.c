@@ -21,7 +21,7 @@ int main(void)
 	for (m = 3; m <= 98; m++)
 	{
 		sum = a + b;
-		printf("%lf", sum);
+		printf("%f", sum);
 
 		if (m != 98)
 			printf(", ");
