@@ -19,17 +19,17 @@ void times_table(void)
 			prod = r * c;
 			if (prod > 9)
 			{
+				_putchar(' ');
 				_putchar((prod / 10) + '0');
 				_putchar((prod % 10) + '0');
 				_putchar(',');
-				_putchar(' ');
 			}
-			else
+			else if ((prod < 9) && ((c != 0) && (r != 0)))
 			{
+				_putchar(' ');
+				_putchar(' ');
 				_putchar(prod + '0');
 				_putchar(',');
-				_putchar(' ');
-				_putchar(' ');
 			}
 
 			if (c == 9)
