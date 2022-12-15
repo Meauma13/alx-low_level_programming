@@ -9,8 +9,8 @@
 int main(void)
 {
 	int n, m;
-	int a = 1;
-	int b = 2;
+	long a = 1;
+	long  b = 2;
 	long sum = 0;
 
 	for (n = 1; n <= 2; n++)
