@@ -25,6 +25,7 @@ int main(void)
 		a = b;
 		b = sum;
 	}
-	printf("\n");
+	if (m != 50)
+		printf("\n");
 	return (0);
 }
