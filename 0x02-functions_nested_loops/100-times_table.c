@@ -38,7 +38,7 @@ void print_times_table(int n)
 					_putchar(prod + '0');
 				if (c != 0)
 				{
-					_putchar(_putchar(_putchar(' ')));
+					_putchar(_putchar(_putchar(_putchar(' '))));
 					_putchar(prod + '0');
 				}
 			}
