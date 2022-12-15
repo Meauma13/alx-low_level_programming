@@ -1,4 +1,4 @@
-#include <stdio.h>
+ #include <stdio.h>
 
 /**
 * main - computes and prints the sum of multiples
@@ -9,6 +9,7 @@
 int main(void)
 {
 	int c3, c5, m3, m5, sum3, sum5;
+
 	m3 = 0;
 	m5 = 0;
 	sum3 = 0;
@@ -17,7 +18,7 @@ int main(void)
 	for (c3 = 1; c3 < 1024; c3++)
 	{
 		m3 = 3 * c3;
-		if (m3 >= 1023)
+		if (m3 >= 1024)
 			break;
 		sum3 += m3;
 	}
@@ -25,7 +26,7 @@ int main(void)
 	for (c5 = 1; c5 < 1024; c5++)
 	{
 		m5 = 5 * c5;
-		if (m5 >= 1023)
+		if (m5 >= 1024)
 			break;
 		sum5 += m5;
 	}
