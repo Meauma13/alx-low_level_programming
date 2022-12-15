@@ -29,12 +29,8 @@ void times_table(void)
 			{
 				_putchar(' ');
 				_putchar(' ');
-				_putchar(prod + '0'); 
-			}
-			else if (prod == 0)
-			{
-				_putchar(prod + '0');
 				_putchar(',');
+				_putchar(prod + '0'); 
 			}
 			else if ((prod < 10) && ((c != 0) && (r != 0)))
 			{
