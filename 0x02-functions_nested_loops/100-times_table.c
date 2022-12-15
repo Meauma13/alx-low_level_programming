@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include "main.h"
-
 /**
 * print_times_table - prints the n times table starting from n
 * @n: expected parameter to start from
