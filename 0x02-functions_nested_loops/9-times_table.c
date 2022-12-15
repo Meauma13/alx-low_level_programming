@@ -21,10 +21,15 @@ void times_table(void)
 			{
 				_putchar((prod / 10) + '0');
 				_putchar((prod % 10) + '0');
+				_putchar(',');
+				_putchar(' ');
 			}
 			else
 			{
 				_putchar(prod + '0');
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
 			}
 
 			if (c == 9)
@@ -32,9 +37,6 @@ void times_table(void)
 				_putchar('\n');
 				break;
 			}
-
-			_putchar(',');
-			_putchar(' ');
 
 			c++;
 		}
