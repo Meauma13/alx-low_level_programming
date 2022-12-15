@@ -17,11 +17,9 @@ void print_times_table(int n)
 	if ((n > 15) || (n < 0))
 		exit(0);
 
-	r = 0;
-	while (r <= n)
+	for (r = 0; r <= n; r++)
 	{
-		c = 0;
-		while (c <= n)
+		for (forc = 0; c <= n; c++)
 		{
 			prod = r * c;
 			if (prod > 99)
@@ -52,15 +50,10 @@ void print_times_table(int n)
 					_putchar(prod + '0');
 				}
 			}
-
 			if (c != n)
 				_putchar(',');
-
 			if (c == n)
 				_putchar('\n');
-
-			c++;
 		}
-		r++;
 	}
 }
