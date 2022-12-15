@@ -9,9 +9,9 @@
 int main(void)
 {
 	int n, m;
-	long a = 1;
-	long  b = 2;
-	long sum = 0;
+	double a = 1;
+	double b = 2;
+	double sum = 0;
 
 	for (n = 1; n <= 2; n++)
 	{
@@ -21,7 +21,7 @@ int main(void)
 	for (m = 3; m <= 98; m++)
 	{
 		sum = a + b;
-		printf("%lu", sum);
+		printf("%lf", sum);
 
 		if (m != 98)
 			printf(", ");
