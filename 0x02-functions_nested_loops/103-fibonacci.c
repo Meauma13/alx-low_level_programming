@@ -23,7 +23,7 @@ int main(void)
 	for (m = 3; m <= 50; m++)
 	{
 		fib_seq = a + b;
-		
+
 		if (fib_seq <= 4000000)
 		{
 			if ((fib_seq % 2) == 0)
