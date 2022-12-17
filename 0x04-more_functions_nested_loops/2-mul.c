@@ -8,7 +8,7 @@
 * Return: (1), if successful
 */
 
-int _isdigit(int a, int b)
+int mul(int a, int b)
 {
 	return (a * b);
 }
