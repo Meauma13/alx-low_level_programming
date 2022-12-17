@@ -3,7 +3,8 @@
 /**
 * mul - multiplies 2 integers
 *
-* @c: expeceted parameter for testing
+* @a: first parameter for multiplication
+* @b: second parameter for multiplication
 *
 * Return: (1), if successful
 */
