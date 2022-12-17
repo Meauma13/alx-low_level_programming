@@ -1,10 +1,9 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
 * print_line - prints a straight line
 *
-* @n: parameter for number of tomes to print line
+* @n: parameter for number of times to print line
 *
 * Return: void
 */
