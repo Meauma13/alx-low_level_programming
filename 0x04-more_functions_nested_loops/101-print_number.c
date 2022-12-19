@@ -2,49 +2,22 @@
 
 /**
 * print_number - prints an integer
-*
 * @n: parameter for the number to be printed
 *
 * Return: void
 */
-
 void print_number(int n)
 {
-	if (n == 0)
-	{
-		_putchar(0 + '0');
-	}
-	else if (n < 0)
-	{
-		n = (n) - (n) - (n);
-		_putchar(45);
-		_putchar((n / 10) + '0');
-		_putchar((n % 10) + '0');
-	}
-	else if (n > 0)
-	{
-		if (n < 10)
-		{
-			_putchar(n + '0');
-		}
-		else if (n > 9 && n < 100)
-		{
-			_putchar((n / 10) + '0');
-			_putchar((n % 10) + '0');
-		}
-		else if (n > 99 && n < 999)
-		{
-			_putchar((n / 100) + '0');
-			_putchar(((n % 100) / 10) + '0');
-			_putchar(((n % 100) % 10) + '0');
-		}
-		else if (n > 999)
-		{
-			_putchar((n / 1000) + '0');
-			_putchar(((n % 1000) / 100) + '0');
-			_putchar((((n % 1000) % 100) / 10) + '0');
-			_putchar((((n % 1000) % 100) % 10) + '0');
-		}
+	unsigned int num = n;
 
+	if (n < 0)
+	{
+		_putchar('-');
+		num = -num;
 	}
+
+	if ((num / 10) > 0)
+		print_number(num / 10);
+
+	_putchar((num % 10) + '0');
 }
