@@ -10,7 +10,7 @@ int main(void)
 {
 	int c, f = 0;
 	long int s = 612852475143;
- 
+
 	for (c = 3; c <= s; c = c + 2)
 	{
 		while (s % c == 0)
@@ -20,6 +20,7 @@ int main(void)
 			s = s / c;
 		}
 	}
+
 	printf("%d\n", f);
 
 	return (0);
