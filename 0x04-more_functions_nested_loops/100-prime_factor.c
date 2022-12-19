@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - finds and prints the highest prome factor of 612852475143
+* main - prints the highest prime factor of 612852475143
 *
 * Return: 0, if successful
 */
