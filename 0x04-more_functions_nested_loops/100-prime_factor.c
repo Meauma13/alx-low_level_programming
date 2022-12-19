@@ -8,7 +8,8 @@
 
 int main(void)
 {
-	int c, f = 0, s = 612852475143;
+	int c, f = 0;
+	long int s = 612852475143;
  
 	for (c = 3; c <= s; c = c + 2)
 	{
