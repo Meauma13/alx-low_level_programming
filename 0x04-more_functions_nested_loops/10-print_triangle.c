@@ -32,7 +32,7 @@ void print_triangle(int size)
 				}
 				else
 				{
-					if (k < m)
+					if (k <= m)
 					{
 						_putchar(35);
 					}
