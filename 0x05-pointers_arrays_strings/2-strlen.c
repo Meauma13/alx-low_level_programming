@@ -4,6 +4,8 @@
 * _strlen - return the length of a string
 *
 * @s: expected string parameter
+*
+* Return: the length of the string
 */
 
 int _strlen(char *s)
@@ -16,5 +18,5 @@ int _strlen(char *s)
 		n++;
 	}
 
-	return l;
+	return (l);
 }
