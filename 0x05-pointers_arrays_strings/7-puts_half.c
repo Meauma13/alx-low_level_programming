@@ -26,10 +26,10 @@ void puts_half(char *str)
 			_putchar(str[c]);
 		}
 	}
-	else
+	else if (l % 2 != 0)
 	{
 		t = (l - 1) / 2;
-		for (c = t; c <= l - 1; c++)
+		for (c = t + 1; c <= l - 1; c++)
 		{
 			_putchar(str[c]);
 		}
