@@ -16,11 +16,11 @@ char *_strcpy(char *dest, char *src)
 	while (src[c] != '\0')
 	{
 		dest[c] = src[c];
-		if (src[c + 1 ] == '\0')
+		if (src[c + 1] == '\0')
 		{
 			dest[c + 1] = '\0';
 		}
 		c++;
 	}
-	return dest;
+	return (dest);
 }
