@@ -21,6 +21,7 @@ int _atoi(char *s)
 		if (s[n] >= '0' && s[n] <= '9')
 		{
 			rtnum = (s[n] - 48) + rtnum * 10; /* -48 is used to offset ASCII code */
+			/* multiplication by 10 helps for correct placement */
 		}
 	}
 	return (rtnum * sign);
