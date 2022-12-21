@@ -22,9 +22,10 @@ int _atoi(char *s)
 		{
 			rtnum = (s[n] - 48) + rtnum * 10; /* -48 is used to offset ASCII code */
 			/* multiplication by 10 helps for correct placement */
+
+			if (s[n + 1] == ' ')
+				break;
 		}
-		if (s[n + 1] == ' ')
-			break;
 	}
 	return (rtnum * sign);
 }
