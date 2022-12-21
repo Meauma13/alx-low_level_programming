@@ -4,7 +4,8 @@
 /**
 * print_array - prints n elements of an array of integers
 *
-* @str: expected string parameter
+* @a: expected array parameter
+* @n: expected number of elements to print
 */
 
 void print_array(int *a, int n)
@@ -14,7 +15,11 @@ void print_array(int *a, int n)
 
 	while (c < n)
 	{
-		printf("%d, ", a[c]);
+		printf("%d", a[c]);
+		if (c != n - 1)
+		{
+			printf(", ");
+		}
 		c++;
 	}
 	printf("\n");
