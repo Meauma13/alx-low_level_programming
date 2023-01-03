@@ -12,20 +12,20 @@
 
 char *_strchr(char *s, char c)
 {
+	int found = 0;
 	unsigned int i;
 
 	for (i = 0; *(s + i) != '\0'; i++)
 	{
 		if (*(s + i) == c)
 		{
+			found = 1;
 			break;
 		}
-		
-		if (*(s + i) == 0)
-		{
-			return (NULL);
-		}
 	}
+
+	if (found != 1)
+		return (NULL);
 
 	return (s + i);
 }
