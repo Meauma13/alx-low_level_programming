@@ -16,17 +16,13 @@ unsigned int _strspn(char *s, char *accept)
 
 	for (n = 0; *(s + n) != ' '; n++)
 	{
-		if ((*(s + n) >= 65 && *(s + n) <= 90) || (*(s + n) >= 97 && *(s + n) <= 122))
+		for (m = 0; *(accept + m) != '\0'; m++)
 		{
-			for (m = 0; *(accept + m) != '\0'; m++)
+			if (*(accept + m) == *(s + n))
 			{
-				if (*(accept + m) == *(s + n))
-				{
-					c++;
-				}
+				c++;
 			}
 		}
 	}
-
 	return (c);
 }
