@@ -3,7 +3,7 @@
 int is_prime(int n, int i);
 
 /**
- * _is_prime_number - checks if integer is prime
+ * is_prime_number - checks if integer is prime
  *
  * @n: number to check if prime
  *
